@@ -1,7 +1,7 @@
 <div>
     <form wire:submit="changeName()">
         <div>
-            <select wire:model="greeting">
+            <select wire:model.fill="greeting">
                 <option value="Hello">Hello</option>
                 <option value="Hi">Hi</option>
                 <option value="Hey">Hey</option>
